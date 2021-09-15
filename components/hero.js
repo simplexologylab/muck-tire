@@ -25,7 +25,7 @@ export default function Hero({
           target="_blank"
           rel="noreferrer"
         >
-          <div className="  flex flex-col gap-4  p-4 ">
+          <div className="flex flex-col items-center gap-4 p-4">
             <p className="text-xl">{link_text}</p>
             <img
               width="36"
