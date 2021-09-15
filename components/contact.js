@@ -32,7 +32,7 @@ export default function Contact({ title, tagline, description }) {
           Contact us to learn more about how we may be able to help.{" "}
         </p> */}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 m-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 m-4">
         {contacts.map(({ title, link_text, link_url, icon }) => (
           <a
             className="bg-tertiary flex rounded-md"
