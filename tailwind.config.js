@@ -7,8 +7,8 @@ module.exports = {
         "topography-pattern": "url('/topography.svg')",
       },
       fontFamily: {
-        primary: ["Black Ops One"],
-        secondary: ["Share Tech Mono"],
+        primary: ["Black Ops One", "ui-monospace"],
+        secondary: ["Share Tech Mono", "ui-monospace"],
       },
       colors: {
         brand: "#FFE600",
