@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Hero({
   title,
   tagline,
@@ -29,7 +27,7 @@ export default function Hero({
         >
           <div className="  flex flex-col gap-4  p-4 ">
             <p className="text-xl">{link_text}</p>
-            <Image
+            <img
               width="36"
               height="36"
               alt="Youtube Icon"

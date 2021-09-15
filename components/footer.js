@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Footer() {
   const socials = [
     {
@@ -24,7 +22,7 @@ export default function Footer() {
           {socials.map(({ name, link, url }) => (
             <div key={name} className="p-2">
               <a href={link} target="_blank" rel="noreferrer">
-                <Image width="24" height="24" alt="Twitter Icon" src={url} />
+                <img width="24" height="24" alt="Twitter Icon" src={url} />
               </a>
             </div>
           ))}
