@@ -8,6 +8,7 @@ module.exports = {
       },
       fontFamily: {
         primary: ["Black Ops One"],
+        secondary: ["Share Tech Mono"],
       },
       colors: {
         brand: "#FFE600",

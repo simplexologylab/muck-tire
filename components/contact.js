@@ -22,7 +22,7 @@ export default function Contact({ title, tagline, description }) {
     },
   ];
   return (
-    <div className="bg-brand flex flex-col place-content-center p-20">
+    <div className="bg-brand flex flex-col place-content-center p-20 font-mono">
       <div className="flex flex-col items-center mb-6 lg:mb-0">
         <h2 className="sm:text-4xl text-5xl font-primary title-font mb-2 text-gray-900">
           Contact Us

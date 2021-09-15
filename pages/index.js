@@ -26,11 +26,7 @@ export default function Home() {
           link_url="https://www.youtube.com/channel/UCWiZL60s0p5gPz7ldnf6iMg"
         />
         <Services />
-        <About
-          title={`About Us`}
-          tagline={`Our mission is to bring muck (mud) and riders together, one tire at a time.`}
-          description={`Fueled by our deep interests in going offroad and technology; we want to connect more people to the outdoors. As our world becomes more and more digital, we don't see it as picking sides; rather how can we blend the two to enhance the experience.`}
-        />
+        <About />
         {/* <Mission /> */}
         <Contact />
       </main>

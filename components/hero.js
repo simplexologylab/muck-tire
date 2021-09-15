@@ -6,13 +6,14 @@ export default function Hero({
   link_url,
 }) {
   return (
-    <div className="relative min-h-screen flex flex-col place-content-center ">
+    <div className="relative min-h-screen flex flex-col items-center place-content-center ">
       <div className="absolute inset-0 bg-topography-pattern animate-pulse" />
       <div className="absolute inset-0 bg-gradient-to-t from-white" />
       <div className="relative font-primary text-5xl m-4 md:text-8xl text-center">
         {title}
       </div>
-      <div className="relative font-mono text-2xl md:text-4xl text-center mt-3">
+      <div className="relative h-2 w-20 m-4 bg-brand rounded"></div>
+      <div className="relative font-secondary text-2xl md:text-5xl text-center mt-3">
         {tagline}
       </div>
       <div className="relative font-mono mt-4 flex flex-col items-center space-y-10">

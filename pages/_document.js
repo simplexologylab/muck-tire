@@ -14,6 +14,10 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Black+Ops+One"
             rel="stylesheet"
           />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />
